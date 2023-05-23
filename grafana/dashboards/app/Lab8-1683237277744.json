@@ -21,7 +21,6 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 11,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -271,7 +270,7 @@
             "uid": "PBFA97CFB590B2093"
           },
           "exemplar": true,
-          "expr": "sum(rate(hello_studentgrades_time_seconds_sum[5m])) / sum(rate(hello_studentgrades_time_seconds_count[5m]))",
+          "expr": "sum(rate(hello_getstudentgrades_time_seconds_sum[5m])) / sum(rate(hello_getstudentgrades_time_seconds_count[5m]))",
           "format": "time_series",
           "instant": false,
           "interval": "",
@@ -382,6 +381,6 @@
   "timezone": "",
   "title": "Lab8",
   "uid": "NwL1isyVk",
-  "version": 3,
+  "version": 1,
   "weekStart": ""
 }
